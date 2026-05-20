@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda Dünyası</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/popup.css">
+</head>
+
+<body>
+
+    <div class="overlay" id="overlay"></div>
+
+    <header>
+        <div class="logo">MODA</div>
+        <nav>
+            <a href="#">YENİ</a>
+            <a href="#">GEYİM</a>
+            <a href="#">AKSESUAR</a>
+            <a href="#">KAMPANİYALAR</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>YENİ KOLLEKSİYA</h1>
+        <p>Yaz-Yay Trendləri Artıq Onlayn</p>
+        <a href="#">KOLLEKSİYAYA BAX</a>
+    </section>
+
+    <h2 class="bolme-bashlig">ÖNƏ ÇIXANLAR</h2>
+    <div class="bolme-xett"></div>
+
+    <section class="mehsullar">
+
+        <div class="kart">
+            <div class="kart-sekil-qab">
+                <img src="media/nike-airforce-1.png" alt="Nike Air Force 1" class="kart-sekil">
+            </div>
+            <div class="kart-icerik">
+                <span class="kart-kateqoriya">Ayaqqabı</span>
+                <span class="kart-ad">Nike Air Force 1</span>
+                <p class="kart-acaqlama">Klassik dizayn, gündəlik rahatlıq. Hər geyimlə uyğun gələn ikonik model.</p>
+                <div>
+                    <div class="kart-olcu-label">ÖLÇÜ</div>
+                    <div class="kart-olcular">
+                        <div class="olcu">38</div>
+                        <div class="olcu">39</div>
+                        <div class="olcu">40</div>
+                        <div class="olcu">41</div>
+                        <div class="olcu">42</div>
+                    </div>
+                </div>
+                <div class="kart-alt">
+                    <span class="kart-giymet">45 AZN</span>
+                    <button class="kart-btn" onclick="popupAc('popup-airforce')">SƏBƏTƏ ƏLAVƏ ET</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="kart">
+            <div class="kart-sekil-qab">
+                <img src="media/nike-1.png" alt="Nike Şalvar" class="kart-sekil">
+            </div>
+            <div class="kart-icerik">
+                <span class="kart-kateqoriya">Geyim</span>
+                <span class="kart-ad">Nike Şalvar</span>
+                <p class="kart-acaqlama">Yüngül, nəfəs alan parça. İdman və gündəlik istifadə üçün ideal seçim.</p>
+                <div>
+                    <div class="kart-olcu-label">ÖLÇÜ</div>
+                    <div class="kart-olcular">
+                        <div class="olcu">S</div>
+                        <div class="olcu">M</div>
+                        <div class="olcu">L</div>
+                        <div class="olcu">XL</div>
+                    </div>
+                </div>
+                <div class="kart-alt">
+                    <span class="kart-giymet">40 AZN</span>
+                    <button class="kart-btn" onclick="popupAc('popup-salvar')">SƏBƏTƏ ƏLAVƏ ET</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="kart">
+            <div class="kart-sekil-qab">
+                <img src="media/nike-tshirt.png" alt="Nike Kofta" class="kart-sekil">
+            </div>
+            <div class="kart-icerik">
+                <span class="kart-kateqoriya">Geyim</span>
+                <span class="kart-ad">Nike Kofta</span>
+                <p class="kart-acaqlama">Sərin havalar üçün mükəmməl. Rahat kəsim, premium keyfiyyətli parça.</p>
+                <div>
+                    <div class="kart-olcu-label">ÖLÇÜ</div>
+                    <div class="kart-olcular">
+                        <div class="olcu">S</div>
+                        <div class="olcu">M</div>
+                        <div class="olcu">L</div>
+                        <div class="olcu">XL</div>
+                    </div>
+                </div>
+                <div class="kart-alt">
+                    <span class="kart-giymet">85 AZN</span>
+                    <button class="kart-btn" onclick="popupAc('popup-kofta')">SƏBƏTƏ ƏLAVƏ ET</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="kart">
+            <div class="kart-sekil-qab">
+                <img src="media/nike-0.png" alt="Sport Gödəkçə" class="kart-sekil">
+            </div>
+            <div class="kart-icerik">
+                <span class="kart-kateqoriya">Geyim</span>
+                <span class="kart-ad">Sport Gödəkçə</span>
+                <p class="kart-acaqlama">Su keçirməz material, tam hava keçirici astarlı. Aktiv həyat tərzi üçün.</p>
+                <div>
+                    <div class="kart-olcu-label">ÖLÇÜ</div>
+                    <div class="kart-olcular">
+                        <div class="olcu">S</div>
+                        <div class="olcu">M</div>
+                        <div class="olcu">L</div>
+                        <div class="olcu">XL</div>
+                    </div>
+                </div>
+                <div class="kart-alt">
+                    <span class="kart-giymet">120 AZN</span>
+                    <button class="kart-btn" onclick="popupAc('popup-godekce')">SƏBƏTƏ ƏLAVƏ ET</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MODA. Bütün hüquqlar qorunur.</p>
+    </footer>
+
+    <div class="popup" id="popup-airforce">
+        <button class="popup-bag" onclick="popupBag('popup-airforce')">&#x2715;</button>
+        <div class="popup-sol">
+            <img src="media/nike-airforce-1.png" alt="Nike Air Force 1">
+        </div>
+        <div class="popup-sag">
+            <span class="popup-kateqoriya">Ayaqqabı</span>
+            <h2 class="popup-ad">Nike Air Force 1</h2>
+            <span class="popup-qiymet">45 AZN</span>
+            <p class="popup-acaqlama">Klassik dizayn, gündəlik rahatlıq. Hər geyimlə uyğun gələn ikonik model. 1982-ci ildən bəri davam edən əfsanəvi siluet.</p>
+            <div class="popup-xususi">
+                <span class="popup-xususi-bashliq">Xüsusiyyətlər</span>
+                <ul>
+                    <li>Dəri üst hissə</li>
+                    <li>Air-Sole yastıqlama texnologiyası</li>
+                    <li>Yapışqanlı rezin alt</li>
+                    <li>Rəng: Ağ / Ağ</li>
+                </ul>
+            </div>
+            <div class="popup-olcular-qrup">
+                <span class="popup-olcu-label">Ölçü</span>
+                <div class="popup-olcular">
+                    <div class="popup-olcu">38</div>
+                    <div class="popup-olcu">39</div>
+                    <div class="popup-olcu">40</div>
+                    <div class="popup-olcu">41</div>
+                    <div class="popup-olcu">42</div>
+                </div>
+            </div>
+            <button class="popup-btn">Səbətə Əlavə Et</button>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-salvar">
+        <button class="popup-bag" onclick="popupBag('popup-salvar')">&#x2715;</button>
+        <div class="popup-sol">
+            <img src="media/nike-1.png" alt="Nike Şalvar">
+        </div>
+        <div class="popup-sag">
+            <span class="popup-kateqoriya">Geyim</span>
+            <h2 class="popup-ad">Nike Şalvar</h2>
+            <span class="popup-qiymet">40 AZN</span>
+            <p class="popup-acaqlama">Yüngül, nəfəs alan parça. İdman və gündəlik istifadə üçün ideal seçim. Elastik bel, yan cibləri ilə funksional dizayn.</p>
+            <div class="popup-xususi">
+                <span class="popup-xususi-bashliq">Xüsusiyyətlər</span>
+                <ul>
+                    <li>%100 polyester</li>
+                    <li>Dri-FIT texnologiyası</li>
+                    <li>Elastik bel bağı</li>
+                    <li>İki yan cib</li>
+                </ul>
+            </div>
+            <div class="popup-olcular-qrup">
+                <span class="popup-olcu-label">Ölçü</span>
+                <div class="popup-olcular">
+                    <div class="popup-olcu">S</div>
+                    <div class="popup-olcu">M</div>
+                    <div class="popup-olcu">L</div>
+                    <div class="popup-olcu">XL</div>
+                </div>
+            </div>
+            <button class="popup-btn">Səbətə Əlavə Et</button>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-kofta">
+        <button class="popup-bag" onclick="popupBag('popup-kofta')">&#x2715;</button>
+        <div class="popup-sol">
+            <img src="media/nike-tshirt.png" alt="Nike Kofta">
+        </div>
+        <div class="popup-sag">
+            <span class="popup-kateqoriya">Geyim</span>
+            <h2 class="popup-ad">Nike Kofta</h2>
+            <span class="popup-qiymet">85 AZN</span>
+            <p class="popup-acaqlama">Sərin havalar üçün mükəmməl. Rahat kəsim, premium keyfiyyətli parça. Fransuz həlqə örgüsü ilə hazırlanmış, uzun müddət davamlı.</p>
+            <div class="popup-xususi">
+                <span class="popup-xususi-bashliq">Xüsusiyyətlər</span>
+                <ul>
+                    <li>%80 pambıq, %20 polyester</li>
+                    <li>Fransız həlqə örgüsü</li>
+                    <li>Önde kenguru cib</li>
+                    <li>Kapüşon tənzimlənən bağ ilə</li>
+                </ul>
+            </div>
+            <div class="popup-olcular-qrup">
+                <span class="popup-olcu-label">Ölçü</span>
+                <div class="popup-olcular">
+                    <div class="popup-olcu">S</div>
+                    <div class="popup-olcu">M</div>
+                    <div class="popup-olcu">L</div>
+                    <div class="popup-olcu">XL</div>
+                </div>
+            </div>
+            <button class="popup-btn">Səbətə Əlavə Et</button>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-godekce">
+        <button class="popup-bag" onclick="popupBag('popup-godekce')">&#x2715;</button>
+        <div class="popup-sol">
+            <img src="media/nike-0.png" alt="Sport Gödəkçə">
+        </div>
+        <div class="popup-sag">
+            <span class="popup-kateqoriya">Geyim</span>
+            <h2 class="popup-ad">Sport Gödəkçə</h2>
+            <span class="popup-qiymet">120 AZN</span>
+            <p class="popup-acaqlama">Su keçirməz material, tam hava keçirici astarlı. Aktiv həyat tərzi üçün dizayn edilmiş, yüngül lakin istilik saxlayan struktur.</p>
+            <div class="popup-xususi">
+                <span class="popup-xususi-bashliq">Xüsusiyyətlər</span>
+                <ul>
+                    <li>Su keçirməz xarici parça</li>
+                    <li>Mesh astarlı</li>
+                    <li>İki fermuarlı yan cib</li>
+                    <li>Tənzimlənən kapüşon</li>
+                </ul>
+            </div>
+            <div class="popup-olcular-qrup">
+                <span class="popup-olcu-label">Ölçü</span>
+                <div class="popup-olcular">
+                    <div class="popup-olcu">S</div>
+                    <div class="popup-olcu">M</div>
+                    <div class="popup-olcu">L</div>
+                    <div class="popup-olcu">XL</div>
+                </div>
+            </div>
+            <button class="popup-btn">Səbətə Əlavə Et</button>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/popup.js"></script>
+</body>
+</html>
