@@ -1,0 +1,130 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background-color: white;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 4px;
+        }
+
+        nav a {
+            margin-left: 24px;
+            text-decoration: none;
+            color: #555;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        .banner {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .banner h1 {
+            font-size: 38px;
+            letter-spacing: 5px;
+            margin-bottom: 14px;
+        }
+
+        .banner p {
+            font-size: 14px;
+            color: #aaa;
+            margin-bottom: 32px;
+            letter-spacing: 1px;
+        }
+
+        .banner a {
+            display: inline-block;
+            border: 1px solid white;
+            color: white;
+            text-decoration: none;
+            padding: 13px 40px;
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+
+        .banner a:hover {
+            background-color: white;
+            color: #111;
+        }
+
+        .bolme-bashlig {
+            text-align: center;
+            margin: 50px 0 10px;
+            font-size: 20px;
+            letter-spacing: 3px;
+            color: #333;
+        }
+
+        .bolme-xett {
+            width: 40px;
+            height: 2px;
+            background-color: #222;
+            margin: 10px auto 30px;
+        }
+
+        .mehsullar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            padding: 0 40px 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+
+
+        .olcu {
+            width: 32px;
+            height: 32px;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            cursor: pointer;
+            color: #444;
+        }
+
+        .olcu:hover {
+            border-color: #111;
+            color: #111;
+        }
+
+
+        footer {
+            background-color: #111;
+            color: #777;
+            text-align: center;
+            padding: 30px;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
